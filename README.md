@@ -1,9 +1,5 @@
 # 🧠 LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenarios
 
-
-
-
-
 > **Evaluating Memory Capability in Continuous Lifelog Scenario**  
 > Jianjie Zheng, Zhichen Liu, Zhanyu Shen, Jingxiang Qu, Guanhua Chen†, Yile Wang, Yang Xu, Yang Liu, Sijie Cheng†  
 > Southern University of Science and Technology · RayNeo.AI · Tsinghua University · Shenzhen University · Shanghai Jiao Tong University  
@@ -24,9 +20,11 @@ Wearable devices such as smart glasses (e.g., Ray-Ban Meta, RayNeo V3/X3) and al
 
 We introduce **LifeDialBench**, a novel benchmark designed to evaluate long-term memory systems in realistic, continuous dialogue lifelog scenarios.
 
-  
-*Figure 1: Comparison between the microphone-always-on lifelog scenario and the conventional on-demand human-AI chatting scenario.*  
-[Download PDF]
+<p align="center">
+  <img src="assets/intro.png" alt="Figure 1: Comparison between the lifelog scenario and the conventional chatting scenario" width="700" />
+</p>
+
+*Figure 1: Comparison between the microphone-always-on lifelog scenario and the conventional on-demand human-AI chatting scenario.*
 
 ---
 
@@ -38,9 +36,11 @@ We introduce **LifeDialBench**, a novel benchmark designed to evaluate long-term
 - **Hierarchical Synthesis Framework** — A principled pipeline for curating high-quality, temporally consistent dialogue lifelogs with human-in-the-loop review.
 - **Online Evaluation Protocol** — A novel evaluation paradigm that strictly adheres to temporal causality, preventing temporal leakage and ensuring systems are assessed in a realistic streaming fashion.
 
-  
-*Figure 2: Overview of the LifeDialBench benchmark construction framework and online evaluation protocol.*  
-[Download PDF]
+<p align="center">
+  <img src="assets/main.png" alt="Figure 2: LifeDialBench framework overview" width="700" />
+</p>
+
+*Figure 2: Overview of the LifeDialBench benchmark construction framework and online evaluation protocol.*
 
 ---
 
