@@ -1,12 +1,22 @@
 
 
-# 🧠 LIFEDIALBENCH: Evaluating Memory Capability in Continuous Lifelog Scenarios
+# 🧠 LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenarios
 
 <p align="center">
   <a href="[YOUR_ARXIV_LINK]"><img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv" /></a>
-  <a href="[YOUR_GITHUB_URL]"><img src="https://img.shields.io/badge/GitHub-Code-black?logo=github" /></a>
+  <a href="https://github.com/qys77714/LifeDialBench"><img src="https://img.shields.io/badge/GitHub-Code-black?logo=github" /></a>
   <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-orange" />
   <img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
+
+<p align="center">
+  <img src="assets/logo.png" alt="LifeDialBench logo" width="360" />
+</p>
+
+<p align="center">
+  <a href="assets/main.pdf"><strong>main.pdf</strong></a>
+  &nbsp;·&nbsp;
+  <a href="assets/Intro.pdf"><strong>Intro.pdf</strong></a>
 </p>
 
 > **Evaluating Memory Capability in Continuous Lifelog Scenario**  
@@ -20,11 +30,7 @@
 
 Wearable devices such as smart glasses (e.g., Ray-Ban Meta, RayNeo V3/X3) and always-on recording machines enable continuous lifelogging of ambient conversations. This creates a fundamentally new challenge for memory systems — one that existing benchmarks, which focus on one-on-one chat or human-AI interactions, are ill-equipped to address.
 
-We introduce **LIFEDIALBENCH**, a novel benchmark designed to evaluate long-term memory systems in realistic, continuous dialogue lifelog scenarios.
-
-<p align="center">
-  <img src="assets/teaser.png" width="600" />
-</p>
+We introduce **LifeDialBench**, a novel benchmark designed to evaluate long-term memory systems in realistic, continuous dialogue lifelog scenarios.
 
 ---
 
@@ -69,8 +75,8 @@ The benchmark will include:
 
 ```bash
 # Clone the repository
-git clone [YOUR_GITHUB_URL]
-cd lifedialbench
+git clone https://github.com/qys77714/LifeDialBench.git
+cd LifeDialBench
 ```
 
 Requirements and setup instructions will be provided upon release.
@@ -87,7 +93,7 @@ Evaluation scripts and detailed instructions will be released alongside the data
 
 ## 📖 Citation
 
-If you find LIFEDIALBENCH useful in your research, please cite our paper:
+If you find LifeDialBench useful in your research, please cite our paper:
 
 ```bibtex
 @article{zheng2025lifedialbench,
