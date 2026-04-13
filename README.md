@@ -1,28 +1,20 @@
-
-
 # 🧠 LifeDialBench: Evaluating Memory Capability in Continuous Lifelog Scenarios
 
-<p align="center">
-  <a href="[YOUR_ARXIV_LINK]"><img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv" /></a>
-  <a href="https://github.com/qys77714/LifeDialBench"><img src="https://img.shields.io/badge/GitHub-Code-black?logo=github" /></a>
-  <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-orange" />
-  <img src="https://img.shields.io/badge/License-MIT-blue" />
-</p>
 
-<p align="center">
-  <img src="assets/logo.png" alt="LifeDialBench logo" width="360" />
-</p>
 
-<p align="center">
-  <a href="assets/main.pdf"><strong>main.pdf</strong></a>
-  &nbsp;·&nbsp;
-  <a href="assets/Intro.pdf"><strong>Intro.pdf</strong></a>
-</p>
+
 
 > **Evaluating Memory Capability in Continuous Lifelog Scenario**  
-> Jianjie Zheng\*, Zhichen Liu\*, Zhanyu Shen, Jingxiang Qu, Guanhua Chen†, Yile Wang, Yang Xu, Yang Liu, Sijie Cheng†  
+> Jianjie Zheng, Zhichen Liu, Zhanyu Shen, Jingxiang Qu, Guanhua Chen†, Yile Wang, Yang Xu, Yang Liu, Sijie Cheng†  
 > Southern University of Science and Technology · RayNeo.AI · Tsinghua University · Shenzhen University · Shanghai Jiao Tong University  
-> (\* Equal contribution. † Corresponding authors.)
+> ( Equal contribution. † Corresponding authors.)
+
+---
+
+## 🚧 Coming Soon
+
+> The **LifeDialBench dataset** (EgoMem & LifeMem subsets), evaluation scripts, and baseline implementations will be released upon paper acceptance.  
+> Please ⭐ **star this repo** to stay updated!
 
 ---
 
@@ -32,6 +24,10 @@ Wearable devices such as smart glasses (e.g., Ray-Ban Meta, RayNeo V3/X3) and al
 
 We introduce **LifeDialBench**, a novel benchmark designed to evaluate long-term memory systems in realistic, continuous dialogue lifelog scenarios.
 
+  
+*Figure 1: Comparison between the microphone-always-on lifelog scenario and the conventional on-demand human-AI chatting scenario.*  
+[Download PDF]
+
 ---
 
 ## ✨ Key Features
@@ -39,10 +35,12 @@ We introduce **LifeDialBench**, a novel benchmark designed to evaluate long-term
 - **Two Complementary Subsets**
   - 🎥 **EgoMem** — Built on real-world egocentric videos (derived from the EgoLife dataset), capturing naturalistic multi-party conversations in-the-wild.
   - 🏘️ **LifeMem** — Constructed from a simulated virtual community, providing rich, dense, and controllable long-term dialogue scenarios.
-
 - **Hierarchical Synthesis Framework** — A principled pipeline for curating high-quality, temporally consistent dialogue lifelogs with human-in-the-loop review.
-
 - **Online Evaluation Protocol** — A novel evaluation paradigm that strictly adheres to temporal causality, preventing temporal leakage and ensuring systems are assessed in a realistic streaming fashion.
+
+  
+*Figure 2: Overview of the LifeDialBench benchmark construction framework and online evaluation protocol.*  
+[Download PDF]
 
 ---
 
@@ -56,16 +54,16 @@ Our experiments reveal a **counterintuitive result**: over-designed memory struc
 
 ## 📂 Dataset
 
-> 🚧 **Coming Soon**
->
-> The LIFEDIALBENCH dataset (EgoMem & LifeMem subsets) will be released here upon paper acceptance. Please ⭐ star this repo to stay updated.
+> 🚧 **Coming Soon** — will be released upon paper acceptance.
 
 The benchmark will include:
 
-| Subset | Source | Setting |
-|--------|--------|---------|
-| **EgoMem** | Real-world egocentric video (EgoLife) | In-the-wild, multi-party conversations |
-| **LifeMem** | Simulated virtual community | Controlled, long-horizon lifelog |
+
+| Subset      | Source                                | Setting                                |
+| ----------- | ------------------------------------- | -------------------------------------- |
+| **EgoMem**  | Real-world egocentric video (EgoLife) | In-the-wild, multi-party conversations |
+| **LifeMem** | Simulated virtual community           | Controlled, long-horizon lifelog       |
+
 
 ---
 
@@ -96,7 +94,7 @@ Evaluation scripts and detailed instructions will be released alongside the data
 If you find LifeDialBench useful in your research, please cite our paper:
 
 ```bibtex
-@article{zheng2025lifedialbench,
+@article{zheng2026lifedialbench,
   title     = {Evaluating Memory Capability in Continuous Lifelog Scenario},
   author    = {Zheng, Jianjie and Liu, Zhichen and Shen, Zhanyu and Qu, Jingxiang and
                Chen, Guanhua and Wang, Yile and Xu, Yang and Liu, Yang and Cheng, Sijie},
@@ -105,3 +103,4 @@ If you find LifeDialBench useful in your research, please cite our paper:
   url       = {[YOUR_ARXIV_LINK]}
 }
 ```
+
