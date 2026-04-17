@@ -5,10 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="[YOUR_ARXIV_LINK]"><img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv" /></a>
-  <a href="https://github.com/qys77714/LifeDialBench"><img src="https://img.shields.io/badge/GitHub-Code-black?logo=github" /></a>
+  <a href="[https://arxiv.org/abs/2604.11182]"><img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv" /></a>
   <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-orange" />
-  <img src="https://img.shields.io/badge/Code-Coming%20Soon-yellow" />
   <img src="https://img.shields.io/badge/License-MIT-blue" />
 </p>
 
@@ -112,7 +110,7 @@ If you find LifeDialBench useful in your research, please cite our paper:
                Chen, Guanhua and Wang, Yile and Xu, Yang and Liu, Yang and Cheng, Sijie},
   journal   = {arXiv preprint},
   year      = {2026},
-  url       = {[YOUR_ARXIV_LINK]}
+  url       = {[https://arxiv.org/abs/2604.11182]}
 }
 ```
 
